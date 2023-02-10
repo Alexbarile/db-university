@@ -1,3 +1,5 @@
+ESERCIZIO 09/02/23
+
 Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti una università:
 
 1 - sono presenti diversi Dipartimenti (es.: Lettere e Filosofia, Matematica, Ingegneria ecc.);
