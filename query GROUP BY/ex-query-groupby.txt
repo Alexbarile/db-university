@@ -3,6 +3,9 @@ ESERCIZIO 13/02/23 (query GROUP BY)
 Query 1:
 Contare quanti iscritti ci sono stati ogni anno
 
+SELECT COUNT(*) AS `iscritti`, YEAR(`students`.`enrolment_date`) AS `anno`
+FROM `students` 
+GROUP BY YEAR(`students`.`enrolment_date`);
 
 
 
