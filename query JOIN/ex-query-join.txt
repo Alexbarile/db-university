@@ -13,11 +13,16 @@ WHERE `degrees`.`name` LIKE "%Corso di Laurea in Economia%";
 Query 2:
 Selezionare tutti i Corsi di Laurea Magistrale del Dipartimento di Neuroscienze
 
-
+SELECT `degrees`.*, `departments`.`name`
+FROM `degrees`
+INNER JOIN `departments`
+ON `departments`.`id` = `degrees`.`department_id`
+WHERE `degrees`.`level` LIKE "%Magistrale%" AND `departments`.`name` = 'Dipartimento di Neuroscienze';
 
 
 Query 3:
 Selezionare tutti i corsi in cui insegna Fulvio Amato (id=44)
+
 
 
 
