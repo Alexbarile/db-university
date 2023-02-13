@@ -3,7 +3,11 @@ ESERCIZIO 13/02/23 (query JOIN)
 Query 1:
 Selezionare tutti gli studenti iscritti al Corso di Laurea in Economia
 
-
+SELECT `students`.*, `degrees`.`name`
+FROM `students`
+INNER JOIN `degrees`
+ON `degrees`.`id` = `students`.`degree_id`
+WHERE `degrees`.`name` LIKE "%Corso di Laurea in Economia%";
 
 
 Query 2:
