@@ -1,4 +1,4 @@
-ESERCIZIO 10/02/23 (query)
+ESERCIZIO 10/02/23 (query SELECT)
 
 Query 1:
 Selezionare tutti gli studenti nati nel 1990 (160)
